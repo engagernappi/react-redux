@@ -8,6 +8,7 @@ const App = () => {
             <CommentDetail author="Sam"/>
             <CommentDetail author="Alex"/>
             <CommentDetail author="Jane"/>
+            <CommentDetail author="Nappi"/>
         </div>
     );
 };
