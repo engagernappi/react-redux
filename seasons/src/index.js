@@ -13,7 +13,7 @@ class App extends React.Component {
         );
     }
 
-    render() {
+    renderContent() {
         if (this.state.lat && !this.state.errorMessage) {
             return <SeasonDisplay lat={this.state.lat} />
         }
@@ -22,7 +22,11 @@ class App extends React.Component {
             return <div>Error: {this.state.errorMessage}</div>;
         }
 
-        return <Spinner message="Please accept the location permission."/>;
+        return <Spinner message="Please accept the location permission." />;
+    }
+
+    render() {
+        return <div>{this.renderContent()}</div>
     }
 }
 
