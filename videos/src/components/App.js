@@ -1,9 +1,16 @@
 import React from 'react';
+import youtube from '../apis/youtube'
 import SearchBar from './SearchBar';
 
 class App extends React.Component {
-    onSearchBarSubmit = term => {
-        console.log(term);
+    onSearchBarSubmit = async term => {
+        const resolve = await youtube.get('/search', {
+            params: {
+                q: term
+            }
+        });
+
+        console.log(resolve.data);
     }
 
     render() {
