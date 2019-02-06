@@ -15,24 +15,6 @@
       "description": "Usando o patch da API",
       "userId": "103487489021266349578",
       "id": 3
-    },
-    {
-      "title": "Teste Stream",
-      "description": "Incluindo o userId na Stream",
-      "userId": "103487489021266349578",
-      "id": 4
-    },
-    {
-      "title": "teste redirecionamento",
-      "description": "vai redirecionar para / após criar a stream",
-      "userId": "103487489021266349578",
-      "id": 5
-    },
-    {
-      "title": "testando o novo form",
-      "description": "Reutilizando o código do form",
-      "userId": "103487489021266349578",
-      "id": 6
     }
   ]
 }
